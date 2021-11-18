@@ -6,18 +6,14 @@ class HomePage{
 
     heading(header){
         return $('//li//a[contains(text(), "' + header + '")]')
-
     }
 
     get headerElements1(){
         return $$('.css-244brj')
     }
 
-
     get marketHeaderElements(){
-
         return $$('.css-j48vme')
-
     }
 
     get acceptCookie(){
@@ -27,6 +23,7 @@ class HomePage{
     get pageHeading() {
         return $('.text-jumbo')
     }
+     
     get logo(){
         return $('.css-112zwd6')
     }
