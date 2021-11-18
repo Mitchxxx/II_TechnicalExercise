@@ -7,8 +7,8 @@ Stoke and Shares ISAs Explained webpage cannot be found. Getting 404 response st
 
 Some Elements are not interactable.
 
-WebdriverIo is unable to click on the following after successly navigating to FTSE 100 page.
-FTSE 250
+WebdriverIo is unable to click on the following (FTSE 250
 FTSE All Share
 NASDAQ
-Dow Jones
+Dow Jones) after successly navigating to FTSE 100 page.
+
