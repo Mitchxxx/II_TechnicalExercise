@@ -6,7 +6,7 @@ describe ('Browse Interactive Investment', ()=>{
 
     before(()=>{
         browser.url('https://www.ii.co.uk/')
-        browser.pause(8000)
+        browser.pause(2000)
         HomePage.acceptCookie.click()
     })
 
@@ -38,7 +38,7 @@ describe ('Browse Interactive Investment', ()=>{
        const headers = HomePage.headerElements1
         // Use the ForEach loop to select each "header"
         headers.forEach((header) => {
-        // Select "Services" Dropdown in the top Nav bar  
+        // Select "Services" Dropdown from the top Nav bar  
         HomePage.navBarHeading('Services').click()
              if (header.isDisplayed())
              { 
@@ -72,7 +72,7 @@ describe ('Browse Interactive Investment', ()=>{
 
        browser.pause(3000)
        headers.forEach((header) => {
-        // Select "Pensions" Dropdown in the top Nav bar  
+        // Select "Pensions" Dropdown from the top Nav bar  
         HomePage.navBarHeading('Pensions').click()
              if (header.isDisplayed())
              { 
@@ -107,7 +107,7 @@ describe ('Browse Interactive Investment', ()=>{
       
              browser.pause(3000)
              headers.forEach((header) => {
-              // Select Investment Dropdown in the top Nav bar  
+              // Select Investment Dropdown from the top Nav bar  
               HomePage.navBarHeading('Investments').click()
                    if (header.isDisplayed())
                    { 
@@ -140,7 +140,7 @@ describe ('Browse Interactive Investment', ()=>{
      
             browser.pause(3000)
             headers.forEach((header) => {
-             // Select Help & Learning Dropdown in the top Nav bar  
+             // Select Help & Learning Dropdown from the top Nav bar  
              HomePage.navBarHeading('Help & Learning').click()
                   if (header.isDisplayed())
                   { 
@@ -172,7 +172,7 @@ describe ('Browse Interactive Investment', ()=>{
           
             browser.pause(3000)
             headers.forEach((header) => {
-            // Select Investment Dropdown in the top Nav bar  
+            // Select Investment Dropdown from the top Nav bar  
             HomePage.navBarHeading('Investments').click()
             browser.pause(3000)
             if (header.isDisplayed())
